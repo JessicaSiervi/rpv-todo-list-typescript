@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import { LuCheck, LuTrash } from 'react-icons/lu'
 
 interface IErro {
   active: boolean
@@ -75,7 +76,11 @@ export function App() {
       <ul>
         {
           tarefas.map((tarefa, index) => (
-            <li key={index}>{tarefa.descricao}</li>
+            <div className="item-list" key={index}>
+              <li>{tarefa.descricao}</li>
+              <LuTrash />
+              <LuCheck />
+            </div>
           ))
         }
       </ul>
