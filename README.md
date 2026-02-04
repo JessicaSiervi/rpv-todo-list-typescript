@@ -1,7 +1,12 @@
-To Do List App
-Descrição
+# To Do List App
+
+## Descrição
+
 Este projeto é educacional e visa inserir os alunos do Curso Técnico em Desenvolvimento de Sistemas do Senai Cataguses ao ecosssitema do React com Typescript.
-Issues criadas
+---
+
+### Issues criadas
+
 
 [Configuração do Projeto - To Do List](https://github.com/JessicaSiervi/rpv-todo-list-typescript/issues/1) - ✅ Finalizado
 
